@@ -1,4 +1,3 @@
-M.AutoInit();
 const contentInfo = [
 	{
 		gameName: "VALORANT",
@@ -7,7 +6,13 @@ const contentInfo = [
 		description:
 			"Valorant is a team-based tactical shooter and first-person shooter set in the near future. Players play as one of a set of agents, characters designed based on several countries and cultures around the world.",
 		image1Path: ".\\Assets\\All\\valoLogo.jpg",
-		image2Path: ".\\Assets\\All\\absbg2.jpg",
+		image2Path: "./Assets/All/absbg2.jpg",
+		registrationInfo: [
+			{
+				category: "Squad",
+				amount: 250,
+			},
+		],
 		winnerAmount: 3000,
 		runnerUpAmount: 1500,
 		rules: [
@@ -28,6 +33,16 @@ const contentInfo = [
 			"Call of Duty: Mobile is a free-to-play shooter video game. With modes like battle royale, multiplayer, classic. The game also includes battle royale modes featuring up to 100 players. A player can choose to play alone, on a two-man team, or in a four-man squad.",
 		image1Path: ".\\Assets\\All\\CODlogo.jpeg",
 		image2Path: "./Assets/All/CODImg2.jpg",
+		registrationInfo: [
+			{
+				category: "Squad",
+				amount: 200,
+			},
+			{
+				category: "Solo",
+				amount: 50,
+			},
+		],
 		winnerAmount: 3000,
 		runnerUpAmount: 1500,
 		rules: [
@@ -50,6 +65,12 @@ const contentInfo = [
 		image2Path: "./Assets/All/chessimg2.jpg",
 		winnerAmount: 1500,
 		runnerUpAmount: 1000,
+		registrationInfo: [
+			{
+				category: "Solo",
+				amount: 50,
+			},
+		],
 		rules: [
 			"PLATFORM FOR THE GAME WILL BE - LICHESS",
 			"IF PLAYER IS OFFLINE FOR MORE THAN 180 SECONDS THEN THE PLAYER",
@@ -61,6 +82,16 @@ const contentInfo = [
 	},
 ];
 let curr = 0;
+
+function getRegistrationInfo(regInfo) {
+	let allInfo = "";
+	regInfo.forEach((info) => {
+		allInfo += `
+		<span class="category">${info.category} - </span>
+		<span class="amount">&#x20B9;${info.amount}</span><br>`;
+	});
+	return allInfo;
+}
 
 function getRules(rules) {
 	let allRules = "";
@@ -91,26 +122,24 @@ function show(direction) {
 	newContent = `
 
 	<nav class="black z-depth-0">
-			<div class="nav-wrapper ">
-				<a href="#!" class="brand-logo">STRATAGEN</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="./index.html">Home</a></li>
-
-					<li><a href="./ideago-index.html">Day 1</a></li>
-					<li><a href="./technica.html">Day 2</a></li>
-					<li><a href="./">Day 3</a></li>
-				</ul>
-			</div>
-		</nav>
-		<ul class="sidenav" id="mobile-demo">
-			<h2>TECHNICA</h2>
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="./ideago-index.html">Day 1</a></li>
-			<li><a href="./technica.html">Day 2</a></li>
-			<li><a href="./">Day 3</a></li>
-		</ul>
-	</div>
+      <div class="nav-wrapper ">
+        <a href="#!" class="brand-logo">STRATAGEN</a>
+        <a href="#"  data-target="mobile-demo" class="sidenav-trigger white-text"><i class='white-text  bx bx-menu-alt-left'></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./ideago-index.html">Day 1</a></li>
+          <li><a href="./technica.html">Day 2</a></li>
+          <li><a href="./">Day 3</a></li>
+        </ul>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+        <h2>TECHNICA</h2>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./ideago-index.html">Day 1</a></li>
+        <li><a href="./technica.html">Day 2</a></li>
+        <li><a href="./">Day 3</a></li>
+      </ul>
+    </nav>
 
   <div class="row contain">
   <span class="game-name hide-on-med-and-down" style="font-size='${fontSize}px'">${
@@ -129,7 +158,7 @@ function show(direction) {
       <div class="current">0${curr + 1}</div>
       <div class="total">/03</div>
     </div>
-    <p>${content.absText}</p>
+    <p>Bored of only studying online?  Why not show your gaming prowess, compete & win? Participate in 3 exciting & popular online games to completely refresh your mood...Just use your skills, concentration & internet connection...the prizes are all yours to grab !! Have fun !!</p>
   </div>
 
   <div class="col s12 m3 content col1">
@@ -146,25 +175,32 @@ function show(direction) {
     style="background-image: url(${content.image2Path})"
   >
     <div class="overlay">
-		<div class="prize-info">EXITING CASH PRIZES</div>
-      <a
-        class="waves-effect waves-light btn modal-trigger"
-        href="#rule-modal"
-        >RULES</a
-      >
-    </div>
-  </div>
+		<div class="entry-info">
+				<div class="register">
+					Registration Fee
+				</div>
+				${getRegistrationInfo(content.registrationInfo)}
+			</div>
+			<!-- <div class="prize-info">EXITING CASH PRIZES</div> -->
+			<a
+				class="waves-effect waves-light btn modal-trigger"
+				href="#rule-modal"
+				onclick="openModal()"
+				>RULES</a
+			>
+			<a class="waves-effect btn" href="https://forms.gle/aWwPgj5rdZ52BzDx6">Register</a>
+		</div>
 </div>
-<div class="prev-next">
-  <i class="bx bxs-left-arrow-alt prev" onclick="show('previous')"></i>
-  <i class="bx bxs-right-arrow-alt next" onclick="show('next')"></i>
-</div>
+
+<script>openModal()</script>
   `;
 	changeContent(content.rules);
 	const allContent = document.getElementById("all-content");
-	allContent.innerHTML = "";
-	allContent.innerHTML = newContent;
+	// allContent.innerHTML = "";
 	window.scrollTo(0, 0);
+	setTimeout(() => {
+		allContent.innerHTML = newContent;
+	}, 300);
 }
 
 function changeContent(rules) {
@@ -172,7 +208,7 @@ function changeContent(rules) {
 	gameRules.innerHTML = getRules(rules);
 }
 
-
+M.AutoInit();
 
 function openModal() {
 	M.AutoInit();

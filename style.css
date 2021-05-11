@@ -143,10 +143,20 @@ nav{
   font-size: 20;
   font-weight: 600;
 }
+.overlay .register{
+  font-size: 25;
+}
+.overlay .category{
+  font-size: 20;
+}
+.overlay .amount{
+  font-size: 20;
+}
+
 .overlay a{
-  font-size: 15;
   font-weight: 600;
   margin-top: 30px;
+  width: 110px;
 }
 
 .overlay p{
@@ -163,6 +173,7 @@ nav{
 
 .prev-next{
   /* border: 1px solid red; */
+  width: 100%;
   text-align: center;
   font-size: 50;
 }

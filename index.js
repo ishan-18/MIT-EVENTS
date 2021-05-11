@@ -19,7 +19,7 @@ let ecard = [
         img:'idea',
         title:"Idea Go",
         link:"./ideago-index.html",
-        para:"Online hack aimed at solving everyday issues are classified into themes participants are expected to form a interdisciplinary team and come up with power point presentation for the solution of chosen problem statement",
+        para:"Online hack aimed at solving everyday issues. Themes with problem statements given.  Participants are expected to form interdisciplinary teams and come up with power point presentation for the solution of the chosen problem statement!",
     },
     {
         color:'#f77f00',

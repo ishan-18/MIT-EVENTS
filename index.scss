@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+.bold-capital{
+    font-weight: bolder !important;
+    text-transform: capitalize !important;
+}
+.logo-font{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color: whitesmoke;
+}
 
+#v-logo{
+    width: 120px;
+    height: 120px   ;
+}
+.capital{
+text-transform: capitalize !important;
+}
 
 $Josephin:'Josefin Sans', sans-serif;
 $primary : #09aace;
@@ -54,7 +72,7 @@ footer{
 height: auto  ;    background-color: #000;
     color: whitesmoke !important;
     .row{
-        width: 75%;
+        width: 70% ;
         margin: 0px auto !important;
         
     }
@@ -70,10 +88,26 @@ height: auto  ;    background-color: #000;
         width: 75px;
         height: 75px;
     }
+    span{
+        color: white;
+    font-size: 16px;
+    
+    }
+    a{
+        &:hover{
+            border-bottom: 1px solid white;
+        }
+        padding: 10px 0;
+        font-size: 18px !important;
+    }
     li{
         list-style: none;
         width: 70%;
+        margin: 0 auto;
+  
         
+            text-align: center !important;
+       
     }
     display: flex;
     justify-content: center;
@@ -301,12 +335,14 @@ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 
     background-position: top center;
     width: 85%;
-    // background-image: url('https://i.pinimg.com/564x/21/9a/57/219a572a2c02a5e307c13bb84e99f874.jpg');
+   background-image: url('./assets/TechnoStellar.png');
     // background-image: url('https://i.pinimg.com/originals/42/ae/c6/42aec6b04ef1149a3ba0cdaee556a143.png');
-    background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  
     // background-image: url('https://images.pexels.com/photos/2017020/pexels-photo-2017020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 //  background-image: url('https://images.pexels.com/photos/60578/jellyfish-fish-blue-aquarium-60578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
-    margin: 0 auto;
+
+// background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');  
+margin: 0 auto;
     margin-top: -25%;
     min-height: 80vh;
     // border: 1px solid red;

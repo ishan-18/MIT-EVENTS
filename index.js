@@ -1,5 +1,15 @@
 M.AutoInit();
 
+let y = window.scrollY
+console.log(y);
+window.onscroll=()=>{
+  if(window.scrollY>1000){
+    document.querySelector('.fixed-action-btn').style.display="block";
+  }else{
+    document.querySelector('.fixed-action-btn').style.display="none";
+  }
+}
+
 
 let ecard = [
 
@@ -7,24 +17,25 @@ let ecard = [
 
         color:'#56855e',
         img:'idea',
-        title:"Lorem, ipsum dolor",
-        link:"",
-        para:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quis vitae repudiandae voluptatibus porro animi velit impedit aliquid commodi eveniet?",
+        title:"Idea Go",
+        link:"./ideago-index.html",
+        para:"Online hack aimed at solving everyday issues are classified into themes participants are expected to form a interdisciplinary team and come up with power point presentation for the solution of chosen problem statement",
     },
     {
         color:'#f77f00',
         img:'technica'
-,        title:"Lorem, ipsum dolor",
-link:"",
-para:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quis vitae repudiandae voluptatibus porro animi velit impedit aliquid commodi eveniet?",
+,        title:"Technica",
+link:"./technica.html",
+para:"This event comprised 2 competitions 1 Technical and 1 Non-Technical .Students can participate in contests organised by student's associations of respective departments",
 
     },
+    
     {
         color:'#9d4edd',
         img:'cod',
-        title:"Lorem, ipsum dolor",
-        link:"",
-        para:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere quis vitae repudiandae voluptatibus porro animi velit impedit aliquid commodi eveniet?",
+        title:"Virtual Battleground",
+        link:"./day3.html",
+        para:"Three Online games to test student's concentration creativity , multitasking and team work . So far one of most favourite games such as COD  and popular among youth Valorent will be played along with the 3rd game chess  ",
 
     }
 ]
@@ -53,7 +64,7 @@ let html=`
      
       <a href="${current.link}">
         <button>Learn More</button>
-     
+    
       </a>
      </div>
 </div>

@@ -1,0 +1,52 @@
+const contentInfo = [
+	{
+		gameName: "VALORANT",
+		characterImgPath: ".AssetsValorantSova.png",
+		absText: '"One more win and we\'re going out for drinks, lads."',
+		description:
+			"Valorant is a team-based tactical shooter and first-person shooter set in the near future. Players play as one of a set of agents, characters designed based on several countries and cultures around the world.",
+		image1Path: "",
+		image2Path: "",
+		winnerAmount: 69,
+		runnerUpAmount: 96,
+		rules: [
+			"TEAMS OF 5 PLAYERS",
+			"WINNERS STAY",
+			"REFRAIN FROM USING FOUL LANGUAGE. DEFAULTERS WILL BE DISQUALIFIED",
+			"IF A PLAYER GOES AKF FOR MORE THAN 10 MINUTES, THEN THE TEAM WILL BE DISQUALIFIED",
+			"STATE LEVEL CERTIFICATES WILL BE GIVEN TO WINNERS AND FIRST RUNNERS UP",
+			"PARTITION CERTIFICATES WILL ALSO BE GIVEN",
+		],
+	},
+	{
+		gameName: "CALL OF DUTY Mobile",
+		characterImgPath: "",
+		absText: '"One more win and we\'re going out for drinks, lads."',
+		description: "Description CODM",
+		image1Path: "",
+		image2Path: "",
+		winnerAmount: 100,
+		runnerUpAmount: 50,
+		rules: [
+			"SOLO AND SQUAD OF 4",
+			"BATTLE ROYAL, NOT MULITPLAYER 5V5",
+			"20 SQUADS WILL PARTICIPATE IN A MATCH",
+			"REFRAIN FROM USING FOUL LANGUAGE. DEFAULTERS WILL BE DISQUALIFIED",
+			"IF A PLAYER GOES AKF FOR MORE THAN 10 MINUTES, THEN THE TEAM WILL BE DISQUALIFIED",
+			"STATE LEVEL CERTIFICATES WILL BE GIVEN TO WINNERS AND FIRST RUNNERS UP",
+			"PARTITION CERTIFICATES WILL ALSO BE GIVEN",
+		],
+	},
+	{
+		gameName: "VALORANT",
+		characterImgPath: ".AssetsValorantSova.png",
+		absText: '"One more win and we\'re going out for drinks, lads."',
+		description:
+			"Valorant is a team-based tactical shooter and first-person shooter set in the near future. Players play as one of a set of agents, characters designed based on several countries and cultures around the world.",
+		image1Path: "",
+		image2Path: "",
+		winnerAmount: 69,
+		runnerUpAmount: 96,
+		rules: [],
+	},
+];

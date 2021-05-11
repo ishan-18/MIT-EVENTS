@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="technica.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="technica">
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h2>Rules</h2>
+          <div class="rules-list">
+            
+          </div>
+        </div>
+      </div>
+        <div class="navbar">
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo">TECHNICA</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class='black-text  bx bx-menu-alt-left'></i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="./index.html">Home</a></li>
+
+                <li><a href="./ideago-index.html">Day 1</a></li>
+                <li><a href="./technica.html">Day 2</a></li>
+                <li><a href="./day3.html">Day 3</a></li>
+              </ul>
+            </div>
+          </nav>
+          <ul class="sidenav" id="mobile-demo">
+            <h2>TECHNICA</h2>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./ideago-index.html">Day 1</a></li>
+            <li><a href="./technica.html">Day 2</a></li>
+            <li><a href="./day3.html">Day 3</a></li>
+          </ul>
+        </div>
+        <div class="image-container">
+          <div class="heading-container">
+            <h1>Bored at <span>House</span> ? Missing those College Fests ?</h1>
+            <p>We are arranging online events that will surely boost your enthusiasm and remind you those college days . This are tough times and participating in such events will surely enlighten your day....</p>
+            <a href="assets/poster1.PNG" download="technica_poster">Download Poster</a>
+          </div>
+        </div>
+        <div class="event-heading">
+          <h1>Upcoming events</h1>
+          <div class="display-flex">
+            <div class="event-name">
+              <select onchange="onFilterByBranch()" name="events" id="">
+                <option value="ACES">ACES</option>
+                <option value="ITSA">ITSA</option>
+                <option value="EESA">EESA</option>
+                <option value="CESA">CESA</option>
+                <option value="MESA">MESA</option>
+              </select>
+            </div>
+            <div class="event-type">
+              <select onchange="onFilterByType()" name="event_type" id="">
+                <option value="Technical">Technical</option>
+                <option value="Non-Technical">Non Technical</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          
+        </div>
+        
+        <footer>
+          <h1>Branches</h1>
+          <div class="logos">
+            <img src="/assets/ACES_LOGO.png" alt=""/>
+            <img src="/assets/EESA logo.jpg" alt=""/>
+            <img src="/assets/itsa logo.jpeg" alt=""/>
+            <img src="/assets/MESA LOGO.jpeg" alt=""/>
+            <img src="/assets/cesaaaa.JPG" alt=""/>
+          </div>
+        </footer>
+        <!-- <div class="poster-container">
+          <h1>Technica Poster</h1>
+          <img src="/assets/poster1.PNG" alt="">
+        </div> -->
+        <br/>
+        <br/>
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="technica.js"></script>
+</body>
+</html>

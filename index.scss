@@ -40,6 +40,52 @@ nav{
     background-color: #000 !important;
 }
 
+.brand-logo{
+    
+    img{border-radius: 50%;
+margin: 10px auto;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+footer{
+    width: 100%;
+height: auto  ;    background-color: #000;
+    color: whitesmoke !important;
+    .row{
+        width: 75%;
+        margin: 0px auto !important;
+        
+    }
+  
+.col{
+    h4{
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        font-size: 16px;
+    }
+    img{
+        width: 75px;
+        height: 75px;
+    }
+    li{
+        list-style: none;
+        width: 70%;
+        
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0 !important;
+    // border: 1px solid red;
+    min-height: 20vh !important;
+
+}
+}
 
 .hero{
     width: 100%;
@@ -48,15 +94,19 @@ nav{
    background-color: black;
 
    .heading{
-transform: translate(6%,0%);
 position: relative;
+text-transform: capitalize !important;
+line-height: 110% !important;
 z-index: 2;
     width: max-content;
-       font-size: 72px;
+       font-size: 64px;
        font-weight: bold;
        font-family: $Josephin;
        line-height: 125%;
        color: whitesmoke;
+       span{
+           color: rgb(113, 255, 255);
+       }
    }
    .between{
        padding: 0 20px;
@@ -94,33 +144,42 @@ z-index: 2;
    }
 
 }
-.cube{
-    background-size: cover;
+.brain{
+    transform: translateX(-17%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 12px;
     background-position: center;
-    background-image: url('https://i.pinimg.com/564x/71/0a/dd/710add475db1a2e6b9e6353f5fd0f400.jpg');
+    background-image: url('./assets/brain.webp');
 }
 .iso{
     background-color: #ffff;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('https://i.pinimg.com/564x/66/f6/50/66f6502c0548873b30957863da160452.jpg');
+    background-image: url('./assets/value.webp');
+    // background-image: url('https://i.pinimg.com/564x/66/f6/50/66f6502c0548873b30957863da160452.jpg');
 }
 .shadow{
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.02),
     0 6.7px 5.3px rgba(0, 0, 0, 0.028);
        border-radius: 12px;
+       background-color: #1f1f5d;
 }
 .cod-bg{
 
 
      background-size: contain;
+     background-repeat: no-repeat;
      background-position: center;
-     background-image: url('./assets/cod.jpg');
+     background-image: url('./assets/audit.webp');
  
     }
 .center{
+padding: 20px auto;
+    margin: 20px auto;
+    min-height: auto !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,10 +220,12 @@ z-index: 2;
          margin: 0 auto;
          .bold{
              width: 70%;
-             text-align: justify;
-             font-size:18px;
-             font-weight: bold;
-             font-family: $Josephin;
+             text-align: left;
+             font-size:16px;
+             font-weight: 500;
+             opacity: .9;
+             border-bottom: 5px solid black;
+             padding-bottom: 15px;
          }
      }
      .steps{
@@ -194,14 +255,15 @@ z-index: 2;
              h4{
                  font-size: 20px;
                  margin: 0;
-                 width: 80%;
+                 text-align: left;
+                 width:85%;
                  font-weight: bolder;
              }
              p{
 margin: 10px 0;
 text-align: justify;
 line-height: 150%;
-                width: 80%;
+                width:85%;
                  color: grey;
              }
          }
@@ -381,6 +443,24 @@ flex-direction: column;
 
 
 @media screen and (max-width:900px) {
+
+    .features .steps .maincol span,.time-list h1,.features .goals .col h1{
+font-size: 58px !important;
+    }
+    .glitch,.timeline-container h2{
+        font-size: 36px !important;
+    }
+    footer .col{
+        min-height: auto !important;
+        padding: 10px 0 !important;
+        li{
+            width: 100%;
+            text-align: center !important;
+        }
+    }
+    .brain{
+        transform: none !important;
+    }
     .features .goals .col{
         min-height: auto;
         padding: 10px 0 !important;
@@ -411,7 +491,7 @@ flex-direction: column;
         margin: 0  auto !important;
     }
      .heading{
-         font-size: 32px !important;
+         font-size: 36mpx !important;
          transform: none !important;
      }
 }
@@ -423,8 +503,8 @@ flex-direction: column;
         align-items: center;
         display: flex;
     }
-    .hero h1{
-        font-size: 3rem !important;
+    .hero h1,.glitch{
+        font-size: 2.2rem !important;
     }
     .sidenav-trigger{
         color: white;
@@ -497,3 +577,72 @@ padding: 25px 0;
     to {transform:translateX(0);}
   }
   
+
+  .glitch {
+  font-weight: bolder !important;
+    color: white !important;
+    font-size: 72px;
+    font-family: $Josephin;
+    position: relative;
+padding: 0;
+    margin: 0 auto;
+  }
+  @keyframes noise-anim {
+    $steps: 20;
+    @for $i from 0 through $steps {
+      #{percentage($i*(1/$steps))} {
+        $top: random(100);
+        $bottom: random(101 - $top);
+        $topWithPercent: $top * 1%;
+        $bottomWithPercent: $bottom * 1%;
+        clip-path: inset(#{$topWithPercent} 0 #{$bottomWithPercent} 0);
+      }
+    }
+  }
+  .glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    animation: noise-anim 3s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim-2 {
+    $steps: 20;
+    @for $i from 0 through $steps {
+      #{percentage($i*(1/$steps))} {
+        $top: random(100);
+        $bottom: random(101 - $top);
+        $topWithPercent: $top * 1%;
+        $bottomWithPercent: $bottom * 1%;
+        clip-path: inset(#{$topWithPercent} 0 #{$bottomWithPercent} 0);
+      }
+    }
+  }
+  .glitch::before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    animation: noise-anim-2 15s infinite linear alternate-reverse;
+  }
+  
+
+  
+  html{
+    scroll-behavior: smooth  !important;
+
+  }
+  
+
+  .fixed-action-btn{
+      display: none ;
+  }

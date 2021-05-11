@@ -1,7 +1,7 @@
 const finalDate = new Date("May 20, 2021 10:00:00");
 const ideago_events = [
   {
-    image: "./Assets/smartcity.jpg",
+    image: "/Assets/smartcity.jpg",
     alt: "Smart City",
     title: "Sustainability and Smart City Environment",
     events: [
@@ -15,7 +15,7 @@ const ideago_events = [
     ],
   },
   {
-    image: "./Assets/smart-agriculture.jpg",
+    image: "/Assets/smart-agriculture.jpg",
     alt: "Agriculture",
     title: "Agriculture and Rural Development",
     events: [
@@ -28,7 +28,7 @@ const ideago_events = [
     ],
   },
   {
-    image: "./Assets/drone.jpg",
+    image: "/Assets/drone.png",
     alt: "Robot",
     title: "Robotics and Drone",
     events: [
@@ -41,7 +41,7 @@ const ideago_events = [
     ],
   },
   {
-    image: "./Assets/health.jpg",
+    image: "/Assets/health.jpg",
     alt: "Health",
     title: "Health Care",
     events: [
@@ -52,7 +52,7 @@ const ideago_events = [
     ],
   },
   {
-    image: "./Assets/online-education.jpg",
+    image: "/Assets/online-education.jpg",
     alt: "Online Education",
     title: "Online Education System",
     events: [
@@ -98,6 +98,7 @@ ideago_events.forEach((value) => {
   const imageNode = document.createElement("img");
   imageNode.src = value.image;
   imageNode.alt = value.alt;
+  imageNode.decoding = "async";
   const titleNode = document.createElement("h3");
   titleNode.innerHTML = value.title;
   const ruleNode = document.createElement("div");

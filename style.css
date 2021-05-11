@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0px;
@@ -106,6 +109,7 @@ nav{
   min-height: 30vh;
   object-fit: cover;
   object-position: center;
+  border-radius: 10px;
 }
 
 .col2{
@@ -126,6 +130,7 @@ nav{
   background-position: top center;
   min-height: 70vh !important;
   margin-top: -14%;
+  border-radius: 10px;
 }
 .overlay{
   width: 100%;
@@ -191,7 +196,40 @@ nav{
             scale(1.15);
 }
 
+footer{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(7, 7, 7);
+  font-family: 'Poppins', sans-serif;
+}
+footer .contact-us{
+  font-size: 20;
+}
+
+.temp-menu{
+  border: 1px solid red;
+  margin-left: -10px !important;
+}
+
+@media only screen and (max-width: 700px){
+  nav{
+    height: 120px;
+  }
+  .brand-logo{
+    font-size: 30px !important;
+    line-height: 110% !important;
+    text-align: center;
+    top: 18%;
+  }
+}
+
 @media only screen and (max-width: 900px){
+  
   .info{
     margin: 0 !important;
     width: 100%;

@@ -33,7 +33,10 @@ var global_obj = [
         desc: "This Quiz will be conducted on Quizziz App (a MCQ based app). The quiz link and the quiz code will be forwarded to the participants on the day of the event. When the host hostess the quiz, the participants will join the link with the given code and start the quiz. He/she will be entering the name which he/she gave at the time of registration.",
         image: "/assets/quiz.jpg",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform",
+        logo: "/assets/EESA_logo.jpg",
+        person1: "Abulfaiz: 8983385403",
+        person2: "Abhay: 9156902666"
     },
     {
         event_name: 'Cryptic Coder',
@@ -49,7 +52,10 @@ var global_obj = [
         desc: "Each question has pre-determined score based on the difficulty of that program. Hard difficulty have 40 points. Medium difficulty have 20 points. Easy difficulty have 10 points.",
         image: "/assets/crypticcoder.jpg",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform",
+        logo: "/assets/ACES_LOGO.png",
+        person1: "Anuja: 9325502393",
+        person2: "Vaibhav: 7588115116"
     },
     {
         event_name: 'Creative Writing',
@@ -68,7 +74,10 @@ var global_obj = [
         desc: "5 Topics will be revealed on the spot. You have to choose any one and write on it. Participants will be judged on the principles of creativity, knowledge of the English language, Writing Skills and Expression on respective content. E-certificates for participants. Cash prize of Rs. 500.",
         image: "/assets/creativewriting.jpg",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform",
+        logo: "/assets/itsa_logo.jpeg",
+        person1: "Raj: 9172002670",
+        person2: "Shivani: 7262855284"
     },
     {
         event_name: 'CNC Programming',
@@ -84,10 +93,13 @@ var global_obj = [
             "During competition hours participants need to keep their mobile/laptop camera ON",
             "Sketch of the part for programming  will be displayed on Webex platform during meeting."
         ],
-        desc: "All registered students need to join the following whatapps group-  https://chat.whatsapp.com/EFfA7Hanc90DbhtEScUXEx",
+        desc: "All registered students need to join the following whatapps group",
         image: "/assets/cncprog.webp",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform",
+        logo: "/assets/MESA_LOGO.jpeg",
+        person1: "Parth: 8378836511",
+        person2: "Shyam: 8600138609"
     },
     {
         event_name: 'CAD MANIA',
@@ -106,7 +118,10 @@ var global_obj = [
         desc: "The participants would be given a plan,along with its dimensions. Participants will have to complete the plan in given time of 1hr duration, Extra 5 minutes will be given to upload the file.",
         image: "/assets/cadmania.webp",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform",
+        logo: "/assets/cesaaaa.JPG",
+        person1: "Shivam: 8975506477",
+        person2: "Shravni: 9545246841"
     },
     {
         event_name: 'Friends Quiz',
@@ -122,7 +137,10 @@ var global_obj = [
         desc: "This Quiz will also be conducted on Quizziz App (a MCQ based app). The quiz link and the quiz code will be forwarded to the participants on the day of the event. When the host hostess the quiz, the participants will join the link with the given code and start the quiz. He/she will be entering the name which he/she gave at the time of registration.",
         image: "/assets/quiz3.svg",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform",
+        logo: "/assets/EESA_logo.jpg",
+        person1: "Abulfaiz: 8983385403",
+        person2: "Abhay: 9156902666"
     },
     {
         event_name: 'One- Minute Short-Film',
@@ -141,7 +159,10 @@ var global_obj = [
         desc: "Please do a small intro of 5-10 seconds before starting the main content of your video. Work with the theme of your choice. Content Should be only in English, Hindi, Marathi Language",
         image: "/assets/film.jpg",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform",
+        logo: "/assets/itsa_logo.jpeg",
+        person1: "Raj: 9172002670",
+        person2: "Shivani: 7262855284"
     },
     {
         event_name: 'Poster Making Competition',
@@ -155,10 +176,13 @@ var global_obj = [
             "All participants need to keep college I-card with him/her during competition.",
             "Only individual participation is allowed."
         ],
-        desc: "COVID Awareness. Competition will be monitored online on Webex platform. https://meetingsapac35.webex.com/meet/pr1660187791. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group- https://chat.whatsapp.com/F5y4eBMc8ZFHgoXGxmtD3v",
+        desc: "COVID Awareness. Competition will be monitored online on Webex platform. https://meetingsapac35.webex.com/meet/pr1660187791. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group",
         image: "/assets/postermaking.webp",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform",
+        logo: "/assets/MESA_LOGO.jpeg",
+        person1: "Parth: 8378836511",
+        person2: "Shyam: 8600138609"
     },
     {
         event_name: 'Mock placement',
@@ -179,7 +203,10 @@ var global_obj = [
         desc: "Cash prize for 1st 2nd 3rd Winners , and vouchers for 4th winner. E Certificates for the participants",
         image: "/assets/mock.png",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform",
+        logo: "/assets/cesaaaa.JPG",
+        person1: "Shivam: 8975506477",
+        person2: "Shravni: 9545246841"
     },
     {
         event_name: 'Trivia Quiz',
@@ -198,7 +225,10 @@ var global_obj = [
         desc: "The quiz link and the quiz code will be forwarded to the participants on the day of the event. When the host hostess the quiz, the participants will join the link with the given code and start the quiz. He/she will be entering the name which he/she gave at the time of registration.",
         image: "/assets/quiz3.svg",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform",
+        logo: "/assets/ACES_LOGO.png",
+        person1: "Anuja: 9325502393",
+        person2: "Vaibhav: 7588115116"
     },
 ];
 
@@ -217,7 +247,10 @@ var technica_events = [
         desc: "This Quiz will be conducted on Quizziz App (a MCQ based app). The quiz link and the quiz code will be forwarded to the participants on the day of the event. When the host hostess the quiz, the participants will join the link with the given code and start the quiz. He/she will be entering the name which he/she gave at the time of registration.",
         image: "/assets/quiz.jpg",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform",
+        logo: "/assets/EESA_logo.jpg",
+        person1: "Abulfaiz: 8983385403",
+        person2: "Abhay: 9156902666"
     },
     {
         event_name: 'Cryptic Coder',
@@ -233,7 +266,10 @@ var technica_events = [
         desc: "Each question has pre-determined score based on the difficulty of that program. Hard difficulty have 40 points. Medium difficulty have 20 points. Easy difficulty have 10 points.",
         image: "/assets/crypticcoder.jpg",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform",
+        logo: "/assets/ACES_LOGO.png",
+        person1: "Anuja: 9325502393",
+        person2: "Vaibhav: 7588115116"
     },
     {
         event_name: 'Creative Writing',
@@ -252,7 +288,10 @@ var technica_events = [
         desc: "5 Topics will be revealed on the spot. You have to choose any one and write on it. Participants will be judged on the principles of creativity, knowledge of the English language, Writing Skills and Expression on respective content. E-certificates for participants. Cash prize of Rs. 500.",
         image: "/assets/creativewriting.jpg",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform",
+        logo: "/assets/itsa_logo.jpeg",
+        person1: "Raj: 9172002670",
+        person2: "Shivani: 7262855284"
     },
     {
         event_name: 'CNC Programming',
@@ -268,10 +307,13 @@ var technica_events = [
             "During competition hours participants need to keep their mobile/laptop camera ON",
             "Sketch of the part for programming  will be displayed on Webex platform during meeting."
         ],
-        desc: "All registered students need to join the following whatapps group-  https://chat.whatsapp.com/EFfA7Hanc90DbhtEScUXEx",
+        desc: "All registered students need to join the following whatapps group",
         image: "/assets/cncprog.webp",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform",
+        logo: "/assets/MESA_LOGO.jpeg",
+        person1: "Parth: 8378836511",
+        person2: "Shyam: 8600138609"
     },
     {
         event_name: 'CAD MANIA',
@@ -290,7 +332,10 @@ var technica_events = [
         desc: "The participants would be given a plan,along with its dimensions. Participants will have to complete the plan in given time of 1hr duration, Extra 5 minutes will be given to upload the file.",
         image: "/assets/cadmania.webp",
         time: "21 May, 10:00- 11:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform",
+        logo: "/assets/cesaaaa.JPG",
+        person1: "Shivam: 8975506477",
+        person2: "Shravni: 9545246841"
     },
     {
         event_name: 'Friends Quiz',
@@ -306,7 +351,10 @@ var technica_events = [
         desc: "This Quiz will also be conducted on Quizziz App (a MCQ based app). The quiz link and the quiz code will be forwarded to the participants on the day of the event. When the host hostess the quiz, the participants will join the link with the given code and start the quiz. He/she will be entering the name which he/she gave at the time of registration.",
         image: "/assets/quiz3.svg",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfn2llNFJ2bJi5YLm_zASL3a-ZJ6Joyj6ljjUJAAYstn2idzQ/viewform",
+        logo: "/assets/EESA_logo.jpg",
+        person1: "Abulfaiz: 8983385403",
+        person2: "Abhay: 9156902666"
     },
     {
         event_name: 'One- Minute Short-Film',
@@ -325,7 +373,10 @@ var technica_events = [
         desc: "Please do a small intro of 5-10 seconds before starting the main content of your video. Work with the theme of your choice. Content Should be only in English, Hindi, Marathi Language",
         image: "/assets/film.jpg",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfgV1xSYZ4PxkNifGCKMiQ7S7UNu0WxMWguNYEmIg4lB5QMNQ/viewform",
+        logo: "/assets/itsa_logo.jpeg",
+        person1: "Raj: 9172002670",
+        person2: "Shivani: 7262855284"
     },
     {
         event_name: 'Poster Making Competition',
@@ -339,10 +390,13 @@ var technica_events = [
             "All participants need to keep college I-card with him/her during competition.",
             "Only individual participation is allowed."
         ],
-        desc: "COVID Awareness. Competition will be monitored online on Webex platform. https://meetingsapac35.webex.com/meet/pr1660187791. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group- https://chat.whatsapp.com/F5y4eBMc8ZFHgoXGxmtD3v",
+        desc: "COVID Awareness. Competition will be monitored online on Webex platform. https://meetingsapac35.webex.com/meet/pr1660187791. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group",
         image: "/assets/postermaking.webp",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform",
+        logo: "/assets/MESA_LOGO.jpeg",
+        person1: "Parth: 8378836511",
+        person2: "Shyam: 8600138609"
     },
     {
         event_name: 'Mock placement',
@@ -363,7 +417,10 @@ var technica_events = [
         desc: "Cash prize for 1st 2nd 3rd Winners , and vouchers for 4th winner. E Certificates for the participants",
         image: "/assets/mock.png",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfcmiR9_zm0XSf6bkXdK-gSMIUcTTxxUfeHK2QBhJQjSl9Zzw/viewform",
+        logo: "/assets/cesaaaa.JPG",
+        person1: "Shivam: 8975506477",
+        person2: "Shravni: 9545246841"
     },
     {
         event_name: 'Trivia Quiz',
@@ -382,7 +439,10 @@ var technica_events = [
         desc: "The quiz link and the quiz code will be forwarded to the participants on the day of the event. When the host hostess the quiz, the participants will join the link with the given code and start the quiz. He/she will be entering the name which he/she gave at the time of registration.",
         image: "/assets/quiz3.svg",
         time: "21 May, 12:30- 02:00",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform"
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScybCeuLo-X_rdbX2CQMCN94GmdiNJTDxiPVMlg4o_i4tPdVQ/viewform",
+        logo: "/assets/ACES_LOGO.png",
+        person1: "Anuja: 9325502393",
+        person2: "Vaibhav: 7588115116"
     },
 ];
 
@@ -435,6 +495,18 @@ function render(event_array){
             </div>
             </div>
         </div>
+        <footer>
+          <h1>Organizing Students' Organisation</h1>
+          <div class="logos">
+            <img src=${tech.logo} alt=""/>
+            <div class="info">
+                <h1>${tech.event_branch}</h1>
+                <h6>Contact Us:</h6>
+                <p>${tech.person1}</p>
+                <p>${tech.person2}</p>
+            </div>
+          </div>
+        </footer>
       `}
       if(tech.event_branch == select && tech.event_type == select1){
         document.querySelector(".rules-list").innerHTML = getRules(tech.rules)

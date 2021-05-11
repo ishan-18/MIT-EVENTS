@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.patrons-container{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.patrons-container .heading{
+    text-align: center;
+}
+
+.patrons-container h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chief-patrons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;  
+    width: 90%;
+    margin: 0 auto;
+}
+
+.chief-patrons .first{
+    max-width: 400px;
+    padding: 12px 20px;
+    box-shadow:
+  0 1.9px 10px rgba(0, 0, 0, 0.03),
+  0 15px 80px rgba(0, 0, 0, 0.06)
+;
+    margin: 10px 10px;
+}
+
+.chief-patrons .second{
+    max-width: 400px;
+    padding: 12px 20px;
+    box-shadow:
+  0 1.9px 10px rgba(0, 0, 0, 0.03),
+  0 15px 80px rgba(0, 0, 0, 0.06)
+;
+    margin: 10px 10px;
+}
+
+.chief-patrons .third{
+    max-width: 400px;
+    padding: 12px 20px;
+    box-shadow:
+  0 1.9px 10px rgba(0, 0, 0, 0.03),
+  0 15px 80px rgba(0, 0, 0, 0.06)
+;
+margin: 10px 10px;
+}
+
+.patrons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.patrons .first{
+    max-width: 400px;
+    padding: 12px 20px;
+    box-shadow:
+  0 1.9px 10px rgba(0, 0, 0, 0.03),
+  0 15px 80px rgba(0, 0, 0, 0.06)
+;
+    margin: 10px 10px;
+}
+
+.co-ordinator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.co-ordinator .first{
+    max-width: 400px;
+    padding: 12px 20px;
+    box-shadow:
+  0 1.9px 10px rgba(0, 0, 0, 0.03),
+  0 15px 80px rgba(0, 0, 0, 0.06)
+;
+    margin: 10px 10px;
+}
+
+@media all and (max-width: 584px){
+    .patrons-container{
+        width: 100%;
+    }
+
+    .chief-patrons{
+        flex-direction: column;
+    }
+
+    .chief-patrons .first{
+        margin: 10px auto !important;
+    }
+
+    .chief-patrons .second{
+        margin: 10px auto !important;
+    }
+
+    .chief-patrons .third{
+        margin: 10px auto !important;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (min-width: 720px) and (max-width: 1019px){
+    .chief-patrons{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .chief-patrons .first{
+        margin: 10px auto !important;
+    }
+
+    .chief-patrons .second{
+        margin: 10px auto !important;
+    }
+
+    .chief-patrons .third{
+        margin: 10px auto !important;
+    }
+}

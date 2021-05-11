@@ -323,7 +323,20 @@ line-height: 150%;
      }
 
 }
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+    img{
+        max-width: 80%;
+        
+    }
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
 .abs-div{
     animation-name: animate;
 animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
@@ -335,13 +348,13 @@ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
 
     background-position: top center;
     width: 85%;
-   background-image: url('./assets/TechnoStellar.png');
+//    background-image: url('./assets/TechnoStellar.png');
     // background-image: url('https://i.pinimg.com/originals/42/ae/c6/42aec6b04ef1149a3ba0cdaee556a143.png');
   
     // background-image: url('https://images.pexels.com/photos/2017020/pexels-photo-2017020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 //  background-image: url('https://images.pexels.com/photos/60578/jellyfish-fish-blue-aquarium-60578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
 
-// background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');  
+ background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');  
 margin: 0 auto;
     margin-top: -25%;
     min-height: 80vh;

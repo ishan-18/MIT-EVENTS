@@ -59,7 +59,7 @@ p {
   width: 100vw;
   height: 100vh;
   background-color: #160414;
-  background-image: url("../assets/innovation.jpg");
+  background-image: url("/Assets/innovation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -644,6 +644,16 @@ p {
   .res-menu-bar {
     width: 98%;
   }
+  .register-card-rules * {
+    margin-top: 1.5vh !important;
+    margin-bottom: 1.5vh !important;
+  }
+  .reward-chip h3 {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
 }
 @media screen and (max-width: 385px) {
   .res-intro-name-last {
@@ -656,3 +666,4 @@ p {
     width: 80%;
   }
 }
+

@@ -331,7 +331,7 @@ line-height: 150%;
 
     img{
         max-width: 80%;
-        
+
     }
     min-height: 100vh;
     width: 80%;
@@ -492,7 +492,14 @@ flex-direction: column;
 
 
 @media screen and (max-width:900px) {
-
+.poster{
+    min-height: auto;
+    padding:0 ;
+    padding-bottom: 10vh;
+    img{
+        max-width: 95% !important;
+    }
+}
     .features .steps .maincol span,.time-list h1,.features .goals .col h1{
 font-size: 58px !important;
     }

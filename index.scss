@@ -60,13 +60,32 @@ nav{
 
 .brand-logo{
     
-    img{border-radius: 50%;
+    img{
 margin: 10px auto;
         width: 75px;
         height: 75px;
     }
+
+    span{
+        padding-left: 20px;
+        padding-top: 15px;
+        width: max-content;
+        position:absolute;
+        font-size: 12px !important;
+    }
+}
+.title{
+    position: relative;
+    transform: translate(0,100%);
+    color: whitesmoke;
+   padding-top: 15px;
+   text-align: center;
+   font-size: 12px;
 }
 
+nav{
+    border: 1px solid #000;
+}
 footer{
     width: 100%;
 height: auto  ;    background-color: #000;
@@ -354,8 +373,7 @@ animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
     // background-image: url('https://images.pexels.com/photos/2017020/pexels-photo-2017020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 //  background-image: url('https://images.pexels.com/photos/60578/jellyfish-fish-blue-aquarium-60578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
 
-//  background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');  
-background-image: url('https://getmyuni.azureedge.net/college-image/big/mit-wpu-pune.jpg');
+     background-image: url('https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');  
  margin: 0 auto;
     margin-top: -25%;
     min-height: 80vh;

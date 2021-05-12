@@ -209,7 +209,7 @@ var global_obj = [
         person2: "Shravni: 9545246841"
     },
     {
-        event_name: 'Trivia Quiz',
+        event_name: 'Web Series Quiz',
         event_type: 'Non-Technical',
         event_branch: 'ACES',
         fees: 30,
@@ -423,7 +423,7 @@ var technica_events = [
         person2: "Shravni: 9545246841"
     },
     {
-        event_name: 'Trivia Quiz',
+        event_name: 'Web Series Quiz',
         event_type: 'Non-Technical',
         event_branch: 'ACES',
         fees: 30,

@@ -89,7 +89,7 @@ var global_obj = [
             "Only Diploma appearing students of any branch can participate in this competition.",
             "All participants need to keep college I-card with him during competition.",
             "Only individual participation is allowed.",
-            "Competition will be monitored online on Webex platform. https://meetingsapac34.webex.com/join/pr1663477814",
+            "Competition will be monitored online on Webex platform.",
             "During competition hours participants need to keep their mobile/laptop camera ON",
             "Sketch of the part for programming  will be displayed on Webex platform during meeting."
         ],
@@ -176,7 +176,7 @@ var global_obj = [
             "All participants need to keep college I-card with him/her during competition.",
             "Only individual participation is allowed."
         ],
-        desc: "COVID Awareness. Competition will be monitored online on Webex platform. https://meetingsapac35.webex.com/meet/pr1660187791. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group",
+        desc: "COVID Awareness. Competition will be monitored online on Webex platform. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group",
         image: "/assets/postermaking.webp",
         time: "21 May, 12:30- 02:00",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform",
@@ -303,7 +303,7 @@ var technica_events = [
             "Only Diploma appearing students of any branch can participate in this competition.",
             "All participants need to keep college I-card with him during competition.",
             "Only individual participation is allowed.",
-            "Competition will be monitored online on Webex platform. https://meetingsapac34.webex.com/join/pr1663477814",
+            "Competition will be monitored online on Webex platform.",
             "During competition hours participants need to keep their mobile/laptop camera ON",
             "Sketch of the part for programming  will be displayed on Webex platform during meeting."
         ],
@@ -390,7 +390,7 @@ var technica_events = [
             "All participants need to keep college I-card with him/her during competition.",
             "Only individual participation is allowed."
         ],
-        desc: "COVID Awareness. Competition will be monitored online on Webex platform. https://meetingsapac35.webex.com/meet/pr1660187791. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group",
+        desc: "COVID Awareness. Competition will be monitored online on Webex platform. During competition hours participants need to keep their mobile/laptop camera ON. All registered students need to join the following whatsapp group",
         image: "/assets/postermaking.webp",
         time: "21 May, 12:30- 02:00",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfXMBNKE8JZsX6rzaItoO9JG-R7peC2TZ32W-A3Nr_CGPDcTA/viewform",

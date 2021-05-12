@@ -1,3 +1,5 @@
+M.AutoInit();
+
 const contentInfo = [
 	{
 		gameName: "VALORANT",
@@ -208,7 +210,6 @@ function changeContent(rules) {
 	gameRules.innerHTML = getRules(rules);
 }
 
-M.AutoInit();
 
 function openModal() {
 	M.AutoInit();

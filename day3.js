@@ -3,12 +3,12 @@ M.AutoInit();
 const contentInfo = [
 	{
 		gameName: "VALORANT",
-		characterImgPath: "./assets/ALL/Sova.png",
+		characterImgPath: "/assets/ALL/Sova.png",
 		absText: '"ONE MORE WIN AND WE\'RE GOING OUT FOR DRINKS, LADS."',
 		description:
 			"Valorant is a team-based tactical shooter and first-person shooter set in the near future. Players play as one of a set of agents, characters designed based on several countries and cultures around the world.",
-		image1Path: "./assets/ALL/valoLogo.jpg",
-		image2Path: "./assets/ALL/absbg2.jpg",
+		image1Path: "/assets/ALL/valoLogo.jpg",
+		image2Path: "/assets/ALL/absbg2.jpg",
 		registrationInfo: [
 			{
 				category: "Squad",
@@ -29,12 +29,12 @@ const contentInfo = [
 	{
 		gameName: "COD-Mobile",
 		fontSize: 110,
-		characterImgPath: "./assets/ALL/CODcharacter.png",
+		characterImgPath: "/assets/ALL/CODcharacter.png",
 		absText: '"ONE MORE WIN AND WE\'RE GOING OUT FOR DRINKS, LADS."',
 		description:
 			"Call of Duty: Mobile is a free-to-play shooter video game. With modes like battle royale, multiplayer, classic. The game also includes battle royale modes featuring up to 100 players. A player can choose to play alone, on a two-man team, or in a four-man squad.",
-		image1Path: "./assets/ALL/CODlogo.jpeg",
-		image2Path: "./assets/ALL/CODImg2.jpg",
+		image1Path: "/assets/ALL/CODlogo.jpeg",
+		image2Path: "/assets/ALL/CODImg2.jpg",
 		registrationInfo: [
 			{
 				category: "Squad",
@@ -59,12 +59,12 @@ const contentInfo = [
 	},
 	{
 		gameName: "CHESS",
-		characterImgPath: "./assets/ALL/chessCharacter.png",
+		characterImgPath: "/assets/ALL/chessCharacter.png",
 		absText: '"CHESS IS EVERYTHING: ART SCIENCE SPORT"',
 		description:
 			"Chess is a recreational and competitive board game played between two players. It is sometimes called Western or international chess to distinguish it from related games such as xiangqi.",
-		image1Path: "./assets/ALL/chessimg1.jpg",
-		image2Path: "./assets/ALL/chessimg2.jpg",
+		image1Path: "/assets/ALL/chessimg1.jpg",
+		image2Path: "/assets/ALL/chessimg2.jpg",
 		winnerAmount: 1500,
 		runnerUpAmount: 1000,
 		registrationInfo: [

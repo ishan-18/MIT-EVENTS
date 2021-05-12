@@ -48,6 +48,9 @@ h3 {
 p {
   font-size: 1.2rem;
 }
+img {
+  background-color: #dddddd !important;
+}
 .title {
   text-align: center;
   margin-top: 10vmin;
@@ -316,6 +319,7 @@ p {
 .register-container {
   width: 100vw;
   padding: 16px;
+  margin-bottom: 2vh;
 }
 .register-card {
   width: 25%;
@@ -414,12 +418,13 @@ p {
 }
 .res-intro-text-root img {
   width: 32px;
+  transform: rotate(-180deg);
 }
 .res-intro-date-last {
   font-size: 2rem;
 }
 .menu-icon {
-  width: 36px;
+  width: 24px;
   margin-left: 2.5%;
   margin-top: 2vh;
   margin-bottom: 2vh;

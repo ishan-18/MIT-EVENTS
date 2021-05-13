@@ -91,9 +91,21 @@ footer{
 height: auto  ;    background-color: #000;
     color: whitesmoke !important;
     .row{
-        width: 70% ;
+        width: 80% ;
         margin: 0px auto !important;
         
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row !important;
+    }
+    i{
+        font-size: 24px !important;
+    padding: 5px !important;
+        color:white !important;
     }
   
 .col{

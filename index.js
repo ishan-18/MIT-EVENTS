@@ -34,7 +34,7 @@ para:"This event comprised 2 competitions 1 Technical and 1 Non-Technical .Stude
         color:'#9d4edd',
         img:'cod',
         title:"Virtual Battleground",
-        link:"./day3.html",
+        link:"./virtualbattleground.html",
         para:"Three Online games to test student's concentration creativity , multitasking and team work . So far one of most favourite games such as COD  and popular among youth Valorent will be played along with the 3rd game chess  ",
 
     }

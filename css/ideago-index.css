@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
@@ -48,15 +48,17 @@ h3 {
 p {
   font-size: 1.2rem;
 }
-img {
-  background-color: #dddddd;
-}
+
 .title {
   text-align: center;
   margin-top: 10vmin;
   margin-bottom: 5vmin;
 }
-/**font-family: 'Josefin Sans', sans-serif;*/
+.title span {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif !important;
+}
 
 .intro-container-bg {
   width: 100vw;
@@ -69,7 +71,6 @@ img {
   margin-bottom: 2.5vh;
 }
 
-/**Absolute*/
 .container-menu-bar {
   width: 100%;
   height: 15%;
@@ -87,16 +88,10 @@ img {
 .container-menu-bar * {
   margin-left: 1.5vw;
   margin-right: 1.5vw;
-  font-weight: 600;
   color: #f5f5f5;
   user-select: none;
   cursor: pointer;
   text-decoration: none;
-
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
-}
-.container-menu-bar *:hover {
-  border-bottom-color: var(--primary-color);
 }
 
 .menu-bar-register-button {
@@ -107,8 +102,9 @@ img {
   border-radius: 5px;
   text-decoration: none;
   background-color: var(--primary-color);
+  font-weight: 600;
 }
-/*Absolute*/
+
 .intro-name {
   position: absolute;
   top: 5%;
@@ -119,7 +115,7 @@ img {
   animation: left-animate-intro 1.5s ease-in-out;
   padding-top: 2px;
 }
-/*Absolute*/
+
 .intro-text-root {
   position: absolute;
   right: 2%;
@@ -179,7 +175,7 @@ img {
   }
 }
 
-/*Countdown section css*/
+
 .countdown-section {
   width: 80vw;
   display: flex;
@@ -195,7 +191,7 @@ img {
   text-align: center;
 }
 
-/*Event info container*/
+
 .event-info-container {
   margin-top: 2.5vh;
   margin-bottom: 2.5vh;
@@ -229,7 +225,7 @@ img {
   text-align: justify;
 }
 
-/*Topic css*/
+
 .topic-container {
   width: 95%;
   margin: auto;
@@ -279,7 +275,6 @@ img {
 .topic-card:nth-child(5) div {
   min-height: 20vh;
 }
-/*Reward Css*/
 .reward-container {
   width: 100%;
   margin-top: 5vh;
@@ -315,7 +310,6 @@ img {
   background-color: #2196f3;
 }
 
-/*Register css*/
 .register-container {
   width: 100vw;
   padding: 16px;
@@ -389,7 +383,6 @@ img {
 .gpay * {
   font-weight: 600;
 }
-/*Responsive Intro container*/
 .res-intro-container {
   width: 100vw;
   min-height: 100vh;
@@ -401,6 +394,7 @@ img {
   width: 95%;
   margin-left: 2.5%;
   border-radius: 10px;
+  background-color: #e5e5e5;
 }
 .res-intro-name-last {
   font-family: "Josefin Sans", sans-serif !important;
@@ -418,18 +412,17 @@ img {
 }
 .res-intro-text-root img {
   width: 32px;
-  transform: rotate(-180deg);
 }
 .res-intro-date-last {
   font-size: 2rem;
 }
 .menu-icon {
-  width: 24px;
+  width: 32px;
   margin-left: 2.5%;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
-/**Res menu bar*/
+
 .res-menu-bar {
   position: absolute;
   z-index: 10;
@@ -461,6 +454,39 @@ img {
   margin-right: 2vw;
   cursor: pointer;
 }
+
+.team-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 90%;
+  column-gap: 2vw;
+  row-gap: 2vh;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  padding: 5px;
+}
+.team-card {
+  width: 100%;
+  min-height: 15vh;
+  padding: 16px;
+  box-shadow: 2px 2px 10px 1px #e5e5e5;
+  border-radius: 10px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.team-card h3 {
+  font-size: 1.5rem;
+}
+.team-card p {
+  font-size: 0.8rem;
+  justify-self: center;
+  align-self: center;
+}
 @media screen and (max-width: 1805px) {
   .register-card {
     width: 30%;
@@ -469,6 +495,9 @@ img {
 @media screen and (max-width: 1605px) {
   .register-card {
     width: 35%;
+  }
+  .team-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 @media screen and (max-width: 1510px) {
@@ -505,7 +534,11 @@ img {
     font-size: 3rem;
   }
 }
-
+@media screen and (max-width: 1305px) {
+  .team-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 @media screen and (max-width: 1210px) {
   .intro-text-root {
     left: 2%;
@@ -586,6 +619,9 @@ img {
     margin-top: 4vh;
     margin-bottom: 4vh;
   }
+  .team-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 840px) {
   .res-intro-container {
@@ -658,6 +694,12 @@ img {
   }
   .title {
     font-size: 2.2rem;
+  }
+  .team-container {
+    grid-template-columns: 1fr;
+  }
+  .team-card {
+    box-shadow: 2px 2px 10px 2px #e2e2e2;
   }
 }
 @media screen and (max-width: 385px) {

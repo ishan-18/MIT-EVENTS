@@ -70,6 +70,7 @@
           src="/assets/down-arrow.svg"
           decoding="async"
           alt="Arrow"
+          style="transform: rotate(-180deg)"
         />Missing the fun of working with teams to create innovative projects in
         competitions.<br /><img
           src="/assets/suit.svg"
@@ -83,19 +84,19 @@
     <!--Countdown timer-->
     <div class="countdown-section">
       <div>
-        <h1 id="Days">122</h1>
+        <h1 id="Days">0</h1>
         <p>Days</p>
       </div>
       <div>
-        <h1 id="Hours">122</h1>
+        <h1 id="Hours">0</h1>
         <p>Hours</p>
       </div>
       <div>
-        <h1 id="Mins">122</h1>
+        <h1 id="Mins">0</h1>
         <p>Minutes</p>
       </div>
       <div>
-        <h1 id="Secs">122</h1>
+        <h1 id="Secs">0</h1>
         <p>Seconds</p>
       </div>
     </div>
@@ -115,7 +116,7 @@
           and innovative ideas will receive great rewards.
           <span style="font-weight: 600"
             ><br />*E-certificates will be provided to all the
-            participants</span
+            participants.</span
           >
         </p>
       </div>
@@ -125,9 +126,79 @@
     </div>
 
     <!--Topic css-->
-    <h2 class="title">Topics</h2>
     <div class="topic-container">
-      <div class="topic-wrapper" id="topic-wrapper"></div>
+      <div class="topic-wrapper" id="topic-wrapper">
+        <div class="topic-card">
+          <img src="/assets/smartcity.jpg" alt="Smart City" decoding="async" />
+          <h3>Sustainability and Smart City Environment</h3>
+          <div>
+            <li><p>Biogas Generation from biodegradable</p></li>
+            <li><p>Paperless office work</p></li>
+            <li><p>E-Vehicle charging using renewable energy</p></li>
+            <li><p>Rain Water Circulation</p></li>
+            <li><p>Generation and Managment of Renewable Energy</p></li>
+            <li><p>Online traffic vigilance or monitoring</p></li>
+            <li><p>Smart parking solution</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img
+            src="/assets/smart-agriculture.jpg"
+            alt="Agriculture"
+            decoding="async"
+          />
+          <h3>Agriculture and Rural Development</h3>
+          <div>
+            <li>
+              <p>
+                Mobile apps for sharing or pulling frame port of agriculture
+                products.
+              </p>
+            </li>
+            <li><p>E commerce of farming products</p></li>
+            <li><p>Groundwater investigation</p></li>
+            <li><p>Organic Farming</p></li>
+            <li><p>Reduce rate of evaporation in farmers</p></li>
+            <li><p>Adulteration</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img src="/assets/drone.png" alt="Robot" decoding="async" />
+          <h3>Robotics and Drone</h3>
+          <div>
+            <li><p>AI based robots for elderly care</p></li>
+            <li><p>Search and resuce operations in natural calamities</p></li>
+            <li><p>Non invasive checking of passengers and luggage</p></li>
+            <li><p>Primary medical investigation using robotics</p></li>
+            <li><p>Automation in industry hazardous area</p></li>
+            <li><p>Robot arrested surgery</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img src="/assets/health.jpg" alt="Health" decoding="async" />
+          <h3>Health Care</h3>
+          <div>
+            <li><p>Virtual Reality(VR) for Yoga and Meditation</p></li>
+            <li><p>Non invasive Non Glucometer</p></li>
+            <li><p>AI based diagnosis of various diseases</p></li>
+            <li><p>Smart in-house mobility for differently able people</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img
+            src="/assets/online-education.jpg"
+            alt="Online Education"
+            decoding="async"
+          />
+          <h3>Online Education System</h3>
+          <div>
+            <li>
+              <p>Technologies for Online Submission/assessment/examinations</p>
+            </li>
+            <li><p>Proctored exam tools to avoid malpractices</p></li>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--Reward Container-->
@@ -188,6 +259,11 @@
         </div>
       </div>
     </div>
+
+    <!--Meet our team-->
+    <h2 class="title">Meet the <span id="team-title-node">Dream Team</span></h2>
+    <div class="team-container" id="team-container"></div>
     <script src="/js/ideago.js"></script>
+    <script async src="/js/animation.js"></script>
   </body>
 </html>

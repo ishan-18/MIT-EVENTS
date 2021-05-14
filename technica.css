@@ -342,6 +342,69 @@ footer h1{
     text-align: left;
 }
 
+.teams{
+    width: 85%;
+    margin: 0 auto !important;
+}
+
+.teams h1{
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.teams h1:before,
+.teams h1:after {
+    background-color: #d1d1d1;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.teams h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.teams h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.team-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first{
+    max-width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 12px 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    /* border: 1px solid #d1d1d1; */
+}
+
+.first h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize !important;
+}
+
+.first h6{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 @media all and (max-width: 584px){
     .cards{
         flex-direction: column;
@@ -503,6 +566,24 @@ footer h1{
 
     .info p{
         margin-bottom: 10px;
+    }
+
+    .first{
+        width: 100%;
+        /* margin-bottom: 20px !important; */
+        margin: 15px 0!important;
+        max-width: 100%;
+        /* margin: 0; */
+    }
+
+    .first h3{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .first h6{
+        font-size: .8rem;
+        font-weight: 400;
     }
 }
 

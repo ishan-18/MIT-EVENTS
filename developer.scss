@@ -49,17 +49,17 @@ i{
   .img{
     background-image: url('https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=740&w=1260');
 width: 100%;
-min-height: 40vh;
+min-height: 45vh;
 background-size: cover;
 background-position: top center;
   }
   .current,.prev,.next{
   margin: 0 !important;
     padding: 0 !important;
-    min-height: 40vh;
+    min-height: 45vh;
     .col{
       padding: 0 !important;
-      min-height: 40vh ;
+      min-height: 45vh ;
       // border: 1px solid red;
 display:flex;
 justify-content: center;
@@ -156,7 +156,7 @@ transform:translateY( -100%);
       }
       color: whitesmoke;
     }
-    min-height: 40vh;
+    min-height: 45vh;
   }
   @keyframes typing {
     from {

@@ -70,7 +70,7 @@ const contentInfo = [
 		registrationInfo: [
 			{
 				category: "Solo",
-				amount: 50,
+				amount: 30,
 			},
 		],
 		rules: [

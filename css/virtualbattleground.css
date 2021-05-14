@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.my-modal{
+  position: fixed;
+  height: 400px;
+  width: 60%;
+  border: 2px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 25px;
+  font-family: "Poppins", sans-serif;
+  display: none;
+}
+.close-modal{
+  background-image: url("/assets/virtual_battleground_images/x.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  /* border: 1px solid black; */
+}
+.close-modal:hover{
+  cursor: pointer;
+}
+.modal-content .rules-title{
+  font-size: 40;
+  margin: 0 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0px;
+  /* border: 1px solid black; */
+}
+
+.my-modal button{
+  padding: 8px 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  font-weight: 700;
+  background-color: rgb(61, 175, 61);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.my-modal button:hover{
+  cursor: pointer;
+  background-color: rgb(50, 143, 50);
+}
+
+.rules{
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  width: 90%;
+}
+.rules li{
+  font-size: 17;
+  font-weight: bold;
+  color: rgb(119, 114, 114);
+  margin-top: 5px;
+}
+
+.brand-logo{
+  font-family: "Poppins", sans-serif;
+  margin-left: 20px;
+  font-size: 25 !important;
+}
+.brand-logo span{
+  font-size: 18px !important;
+}
+
+.hero-container{
+  width: 100%;
+  height: 90vh;
+  /* border: 1px solid red; */
+  padding-top: 30px;
+  /* background-color: #020005; */
+}
+
+.hero{
+  height: 82vh;
+  width: 85%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.4)), url("/assets/virtual_battleground_images/absImg.jpg");
+  /* background-image: url("./assets/absImg2.jpg"); */
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  position: relative;
+  box-shadow:
+  0 3.9px 2.2px rgba(0, 0, 0, 0.022),
+  0 9.4px 5.3px rgba(0, 0, 0, 0.033),
+  0 17.8px 10px rgba(0, 0, 0, 0.042),
+  0 31.7px 17.9px rgba(0, 0, 0, 0.05),
+  0 59.3px 33.4px rgba(0, 0, 0, 0.058),
+  0 142px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.hero-msg{
+  position: absolute;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  width: 700px;
+}
+.hero-msg h2{
+  margin-top: 20px !important;
+  font-weight: 600 !important;
+}
+.hero-msg p{
+  font-size: 22;
+  color: rgb(252, 240, 240);
+  padding-left: 20px;
+}
+.hero-msg .studying{
+  color: #f13232;
+}
+
+.game-card{
+  height: 350px;
+  width: 85%;
+  margin: 80 auto;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16);
+}
+
+.card-bg-img{
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.card-info{
+  /* border: 1px solid black; */
+  height: 350px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-left: 40px !important; 
+  position: relative;
+}
+.card-info h1{
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.card-info .game-description{
+  font-size: 20;
+  line-height: 103%;
+  color:rgba(0, 0, 0, 0.7);
+}
+
+.reg-charges{
+  margin-top: 10px;
+  font-size: 19;
+}
+.reg-category{
+  font-size: 17;
+  padding-left: 20px;
+}
+.reg-amount{
+  color: rgb(224, 66, 66);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.rules-n-register{
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: 7%;
+}
+.rules-n-register button{
+  width: 100px;
+  padding: 11px;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  word-spacing: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.rules-n-register button:hover{
+  cursor: pointer;
+}
+
+
+.rules-n-register .btn-register:hover{
+  background-color: rgb(196, 51, 51);
+}
+
+.btn-rules{
+  background-color: rgb(233, 156, 111);
+  color: white;
+}
+.btn-register{
+  background-color: rgb(231, 93, 93);
+  color: white;
+}
+
+.valorant-bg-img{
+  background-image: url("/assets/virtual_battleground_images/valoImage1.jpg");
+}
+.cod-bg-img{
+  background-image: url("/assets/virtual_battleground_images/CodBgImg2.webp");
+}
+.chess-bg-img{
+  background-image: url("/assets/virtual_battleground_images/chessBgImg2.webp");
+}
+
+.contact-us{
+  height: 250px;
+  width: 28%;
+  margin: 50px auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+.contact-img{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 40%;
+  background-image: url("/assets/virtual_battleground_images/grpImg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact-info{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid black; */
+  /* padding: 15px 0 0 20px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact-info p{
+  font-weight: 900;
+  font-size: 20;
+}
+.contact-name{
+  font-size: 18;
+  font-weight: 600;
+}
+
+.teams{
+  width: 85%;
+  margin: 0 auto !important;
+  height: 40vh;
+}
+
+.teams h1{
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.teams h1:before,
+.teams h1:after {
+  background-color: #d1d1d1;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.teams h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.teams h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.main-ppl-group{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.main-person{
+  /* border: 1px solid black; */
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.07);
+  width: 200px;
+  margin: 10px;
+  min-height: 100px;
+  display: grid;
+  place-items: center;
+}
+.main-person h6{
+  font-weight: 700;
+  text-align: center;
+}
+.main-person p{
+  color: rgb(114, 112, 112);
+  font-weight: 400;
+  text-align: center;
+  line-height: 105%;
+}
+
+.secondary-ppl-group{
+  /* border: 1px solid black; */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.person{
+  /* border: 1px solid black; */
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.07);
+  width: 200px;
+  margin: 20px 20px;
+  display: grid;
+  place-items: center;
+  min-height: 100px;
+}
+.person h6{
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px !important;
+}
+.person p{
+  color: rgb(114, 112, 112);
+  font-weight: 400;
+  text-align: center;
+  line-height: 105%;
+  margin-top: auto 5px;
+}
+
+.main-person, .person{
+  border: 1px solid rgb(248, 245, 245);;
+}
+
+@media only screen and (min-width: 992px){
+  .card-bg-img{
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.023),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.035),
+      0 12.5px 10px rgba(0, 0, 0, 0.045),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.054),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.061),
+      0 100px 80px rgba(0, 0, 0, 0.07);
+  }
+}
+
+@media only screen and (max-width: 992px){
+  
+  .hero-msg{
+    width: 100%;
+  }
+
+  .game-card{
+    /* border: 1px solid red; */
+    min-height: 550px;
+    margin-top: 30px !important;
+  }
+  .valorant-card{
+    margin-top: 30px !important;
+  }
+
+  .card-bg-img{
+    height: 40%;
+  }
+  .card-info{
+    padding: 0px !important;
+    max-height: 330px;
+    /* border: 1px solid black; */
+  }
+  .card-info h1{
+    text-align: center;
+  }
+
+  .cod-card .card-info{
+    max-height: 380px !important;
+  }
+
+  .game-description{
+    margin: 0 30px;
+    text-align: justify;
+  }
+
+  .reg-info{
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .rules-n-register{
+    /* margin-bottom: 0px; */
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .cod-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .cod-card .card-info{
+    order: 2;
+  }
+
+  .contact-us{
+    width: 40%;
+  }
+
+  .my-modal{
+    min-height: 450px;
+    width: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .rules li{
+    font-size: 15px;
+  }
+  .my-modal button{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .main-person{
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .brand-logo{
+    margin: 0;
+    font-size: 20 !important;
+  }
+  .brand-logo span{
+    font-size: 15px !important;
+  }
+  
+  .hero{
+    height: 80vh;
+    width: 93%;
+    padding-top: 10px;
+  }
+  .hero-msg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20;
+    left: 0;
+  }
+  .hero-msg h2{
+    padding: 0 !important;
+    margin: 0 0 15 0 !important;
+    /* border: 1px solid yellow; */
+  }
+  .hero-msg p{
+    padding: 0 0 10 0;
+  }
+
+  .game-card{
+    min-height: 550px;
+    width: 90%;
+  }
+  .cod-card{
+    min-height: 600px;
+  }
+  .cod-card .card-info{
+    max-height: 600px;
+  }
+
+  .card-info{
+    padding-bottom: 0px;
+  }
+  .card-info h1{
+    margin-top: 10px !important;
+    font-size: 40px !important;
+  }
+
+  .game-description{
+    margin: 0 30px !important;
+  }
+  
+  .contact-us{
+    width: 80%;
+  }
+
+  .my-modal{
+    min-height: 450px;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+@media only screen and (max-width: 500px){
+  
+  .hero-msg h2{
+    font-size: 30px !important;
+  }
+  .hero-msg p{
+    font-size: 20px;
+  }
+
+  .game-card{
+    min-height: 550px !important;
+  }
+  .cod-card{
+    min-height: 600px  !important;
+  }
+
+  .game-description{
+    font-size: 18 !important;
+    margin: 0 10px;
+  }
+  
+  .card-info h1{
+    font-size: 30 !important;
+  }
+  .contact-us{
+    width: 90%;
+  }
+
+  .my-modal{
+    padding: 10px;
+  }
+  .rules-title{
+    font-size: 30px !important;
+  }
+  .rules{
+    margin-top: 0;
+    width: 95%;
+  }
+  .rules li{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .brand-logo{
+    font-size: 15px !important;
+  }
+  .brand-logo span{
+    font-size: 13px !important;
+  }
+  
+  .my-modal{
+    height: 500px;
+  }
+}

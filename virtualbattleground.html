@@ -1,0 +1,201 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/virtualbattleground.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
+		<title>VIRTUAL BATTLEGROUND</title>
+	</head>
+	<body>
+		<nav class="black z-depth-0">
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">
+					V<span>IRTUAL</span> B<span>ATTLEGROUND</span>
+				</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger white-text"
+					><i class="white-text bx bx-menu-alt-left"></i
+				></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="/index.html">Home</a></li>
+					<li><a href="/ideago-index.html">Day 1</a></li>
+					<li><a href="/technica.html">Day 2</a></li>
+					<li><a href="/virtualbattleground.html">Day 3</a></li>
+					<li><a href="/patrons.html">Patrons</a></li
+				</ul>
+			</div>
+			<ul class="sidenav" id="mobile-demo">
+				<h2>Virtual Battleground</h2>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/ideago-index.html">Day 1</a></li>
+				<li><a href="/technica.html">Day 2</a></li>
+				<li><a href="/virtualbattleground.html">Day 3</a></li>
+				<li><a href="/patrons.html">Patrons</a></li>
+			</ul>
+		</nav>
+
+		<div class="hero-container">
+			<div class="row hero">
+				<div class="hero-msg">
+					<h2>Bored of <span class="studying">studying</span> online?</h2>
+					<p>
+						Participate in 3 exiting & popular online games to completely
+						refresh your mood...Just use your skills, concentration & internet
+						connection...the prizes are all yours to grab!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row game-card valorant-card">
+			<!-- <div class="row"> -->
+			<div class="col s12 m12 l5 card-bg-img valorant-bg-img"></div>
+			<div class="col s12 m12 l7 card-info">
+				<h1>VALORANT</h1>
+				<p class="game-description">
+					Valorant is a team-based tactical shooter and first-person shooter set
+					in the near future. Players play as one of a set of agents, characters
+					designed based on several countries and cultures around the world.
+				</p>
+				<div class="reg-info">
+					<p class="reg-charges">Registration Charges</p>
+					<span class="reg-category">Squad :</span>
+					<span class="reg-amount">&nbsp;&nbsp; &#8377; 250</span><br />
+				</div>
+				<div class="rules-n-register">
+					<button href="" class="btn-rules" onclick="openRulesModal(0)">
+						RULES
+					</button>
+					<button class="btn-register" onclick="openRegistrationForm()">
+						REGISTER
+					</button>
+				</div>
+			</div>
+			<!-- </div> -->
+		</div>
+
+		<div class="row game-card cod-card">
+			<!-- <div class="row"> -->
+			<div class="col s12 m12 l7 card-info">
+				<h1>COD - MOBILE</h1>
+				<p class="game-description">
+					Call of Duty: Mobile is a free-to-play shooter video game. Players can
+					choose to play ranked or non-ranked matches in multiplayer mode. Modes
+					contain both matchmaking and private room, multiplayer and battle
+					royale.
+				</p>
+				<div class="reg-info">
+					<p class="reg-charges">Registration Charges</p>
+					<span class="reg-category">Squad :</span>
+					<span class="reg-amount">&nbsp;&nbsp; &#8377; 200</span><br />
+					<span class="reg-category">Solo &nbsp;&nbsp;:</span>
+					<span class="reg-amount">&nbsp;&nbsp;&nbsp;&#8377; 50</span><br />
+				</div>
+				<div class="rules-n-register">
+					<button href="" class="btn-rules" onclick="openRulesModal(1)">
+						RULES
+					</button>
+					<button class="btn-register" onclick="openRegistrationForm()">
+						REGISTER
+					</button>
+				</div>
+			</div>
+			<div class="col s12 m12 l5 card-bg-img cod-bg-img"></div>
+			<!-- </div> -->
+		</div>
+
+		<div class="row game-card chess-card">
+			<!-- <div class="row"> -->
+			<div class="col s12 m12 l5 card-bg-img chess-bg-img"></div>
+			<div class="col s12 m12 l7 card-info">
+				<h1>CHESS</h1>
+				<p class="game-description">
+					Chess, one of the oldest and most popular board games in the world,
+					played by two opponents on a checkered board having 64 squares with
+					specially designed pieces of contrasting colours, commonly white and
+					black.
+				</p>
+				<div class="reg-info">
+					<p class="reg-charges">Registration Charges</p>
+					<span class="reg-category">Solo :</span>
+					<span class="reg-amount">&nbsp;&nbsp; &#8377; 30</span><br />
+				</div>
+				<div class="rules-n-register">
+					<button href="" class="btn-rules" onclick="openRulesModal(2)">
+						RULES
+					</button>
+					<button class="btn-register" onclick="openRegistrationForm()">
+						REGISTER
+					</button>
+				</div>
+			</div>
+			<!-- </div> -->
+		</div>
+
+		<div class="contact-us">
+			<div class="contact-img"></div>
+			<div class="contact-info">
+				<!-- <div class="contact-block"> -->
+				<p>Contact Us:</p>
+				<div>
+					<span class="contact-name">Vishesh :</span>
+					<span class="contact-number">744778999</span>
+				</div>
+				<div>
+					<span class="contact-name">Niranjan :</span>
+					<span class="contact-number">9075025005</span>
+				</div>
+				<div>
+					<span class="contact-name">Deepak :</span>
+					<span class="contact-number">7030208335</span>
+				</div>
+				<!-- </div> -->
+			</div>
+		</div>
+
+		<div class="teams">
+			<h1>Our Team</h1>
+			<div class="main-ppl-group">
+				<div class="main-person">
+					<h6>Prof. Vilas C. Rathod</h6>
+					<p>Co-ordinator</p>
+				</div>
+				<div class="main-person">
+					<h6>Prof. Sachin N. Patil</h6>
+					<p>Co-ordinator</p>
+				</div>
+				<div class="main-person">
+					<h6>Dr. Prof. Sunil S. Karad</h6>
+					<p>Co-ordinator</p>
+				</div>
+			</div>
+			<div class="secondary-ppl-group" id="spg">
+				<div class="person">
+					<h6>Niranjan Zunjur</h6>
+					<p>TYME - Sports Secetary</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="my-modal" id="my-modal">
+			<div class="close-modal" onclick="closeRulesModal()"></div>
+			<div class="modal-content">
+				<div class="rules-title">RULES</div>
+				<ul class="rules" id="rules">
+					onclick="openRulesModal()"
+				</ul>
+			</div>
+			<button class="accept-modal" onclick="closeRulesModal()">ACCEPT</button>
+		</div>
+	</body>
+	<script src="/js/virtualbattleground.js"></script>
+	<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

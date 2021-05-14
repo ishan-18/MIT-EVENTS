@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IDEA GO</title>
-    <link rel="stylesheet" type="text/css" href="/css/ideago-index.css" />
-  </head>
-  <body>
-    <div class="res-menu-bar" id="res-menu-bar">
-      <img
-        class="res-close"
-        id="res-close"
-        src="/assets/close.svg"
-        decoding="async"
-        alt="Close Menu"
-      />
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>IDEA GO</title>
+		<link rel="stylesheet" type="text/css" href="/css/ideago-index.css" />
+	</head>
+	<body>
+		<div class="res-menu-bar" id="res-menu-bar">
+			<img
+				class="res-close"
+				id="res-close"
+				src="/assets/close.svg"
+				decoding="async"
+				alt="Close Menu"
+			/>
+			<a href="/patrons.html">Patrons</a>
+			<a href="/index.html">Home</a>
+			<a href="/ideago-index.html">Day 1</a>
+			<a href="/technica.html">Day 2</a>
+			<a href="/virtualbattleground.html">Day 3</a>
+			<a href="#register" class="menu-bar-register-button">Register</a>
+		</div>
+		<!--Normal page-->
+		<div class="intro-container-bg">
+			<div class="container-menu-bar">
+				<a href="/patrons.html">Patrons</a>
+				<a href="/index.html">Home</a>
+				<a href="/ideago-index.html">Day 1</a>
+				<a href="/technica.html">Day 2</a>
+				<a href="/virtualbattleground.html">Day 3</a>
 
-      <a href="/index.html">Home</a>
-      <a href="/technica.html">Day 2</a>
-      <a href="/day3.html">Day 3</a>
-      <a href="/patrons.html">Patrons</a>
-      <a href="#register" class="menu-bar-register-button">Register</a>
-    </div>
-    <!--Normal page-->
-    <div class="intro-container-bg">
-      <div class="container-menu-bar">
-        <a href="/index.html">Home</a>
-        <a href="/technica.html">Day 2</a>
-        <a href="/day3.html">Day 3</a>
-        <a href="/patrons.html">Patrons</a>
-        <a href="#register" class="menu-bar-register-button">Register</a>
-      </div>
-      <h3 class="intro-text-root" id="intro-text-root">
-        Missing the hackathons.<br /><img
-          src="/assets/down-arrow.svg"
-          alt="Arrow"
-          decoding="async"
-        />Missing the fun of working with teams to create innovative projects in
-        competitions.<br /><img
-          src="/assets/suit.svg"
-          alt="suit"
-          decoding="async"
-        />Suit up and get ready for an exciting event for you to regain the
-        enjoyment.
-      </h3>
-      <h2 class="intro-name">IDEAGO 2020-21</h2>
-      <h2 class="intro-date">20 May 2021</h2>
-    </div>
+				<a href="#register" class="menu-bar-register-button">Register</a>
+			</div>
+			<h3 class="intro-text-root" id="intro-text-root">
+				Missing the hackathons.<br /><img
+					src="/assets/down-arrow.svg"
+					alt="Arrow"
+					decoding="async"
+				/>Missing the fun of working with teams to create innovative projects in
+				competitions.<br /><img
+					src="/assets/suit.svg"
+					alt="suit"
+					decoding="async"
+				/>Suit up and get ready for an exciting event for you to regain the
+				enjoyment.
+			</h3>
+			<h2 class="intro-name">IDEAGO 2020-21</h2>
+			<h2 class="intro-date">20 May 2021</h2>
+		</div>
 
-    <!--Responsive Intro-->
-    <div class="res-intro-container">
-      <img
-        src="/assets/menu.svg"
-        class="menu-icon"
-        id="menu-icon"
-        alt="menu button"
-        decoding="async"
-      />
-      <h2 class="res-intro-name-last">IDEAGO 2020-21</h2>
-      <h2 class="res-intro-name-last res-intro-date-last">20 May 2021</h2>
+		<!--Responsive Intro-->
+		<div class="res-intro-container">
+			<img
+				src="/assets/menu.svg"
+				class="menu-icon"
+				id="menu-icon"
+				alt="menu button"
+				decoding="async"
+			/>
+			<h2 class="res-intro-name-last">IDEAGO 2020-21</h2>
+			<h2 class="res-intro-name-last res-intro-date-last">20 May 2021</h2>
 
       <img
         src="/assets/innovation.jpg"
@@ -70,6 +72,7 @@
           src="/assets/down-arrow.svg"
           decoding="async"
           alt="Arrow"
+          style="transform: rotate(-180deg)"
         />Missing the fun of working with teams to create innovative projects in
         competitions.<br /><img
           src="/assets/suit.svg"
@@ -83,19 +86,19 @@
     <!--Countdown timer-->
     <div class="countdown-section">
       <div>
-        <h1 id="Days">122</h1>
+        <h1 id="Days">0</h1>
         <p>Days</p>
       </div>
       <div>
-        <h1 id="Hours">122</h1>
+        <h1 id="Hours">0</h1>
         <p>Hours</p>
       </div>
       <div>
-        <h1 id="Mins">122</h1>
+        <h1 id="Mins">0</h1>
         <p>Minutes</p>
       </div>
       <div>
-        <h1 id="Secs">122</h1>
+        <h1 id="Secs">0</h1>
         <p>Seconds</p>
       </div>
     </div>
@@ -115,7 +118,7 @@
           and innovative ideas will receive great rewards.
           <span style="font-weight: 600"
             ><br />*E-certificates will be provided to all the
-            participants</span
+            participants.</span
           >
         </p>
       </div>
@@ -125,61 +128,131 @@
     </div>
 
     <!--Topic css-->
-    <h2 class="title">Topics</h2>
     <div class="topic-container">
-      <div class="topic-wrapper" id="topic-wrapper"></div>
+      <div class="topic-wrapper" id="topic-wrapper">
+        <div class="topic-card">
+          <img src="/assets/smartcity.jpg" alt="Smart City" decoding="async" />
+          <h3>Sustainability and Smart City Environment</h3>
+          <div>
+            <li><p>Biogas Generation from biodegradable</p></li>
+            <li><p>Paperless office work</p></li>
+            <li><p>E-Vehicle charging using renewable energy</p></li>
+            <li><p>Rain Water Circulation</p></li>
+            <li><p>Generation and Managment of Renewable Energy</p></li>
+            <li><p>Online traffic vigilance or monitoring</p></li>
+            <li><p>Smart parking solution</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img
+            src="/assets/smart-agriculture.jpg"
+            alt="Agriculture"
+            decoding="async"
+          />
+          <h3>Agriculture and Rural Development</h3>
+          <div>
+            <li>
+              <p>
+                Mobile apps for sharing or pulling frame port of agriculture
+                products.
+              </p>
+            </li>
+            <li><p>E commerce of farming products</p></li>
+            <li><p>Groundwater investigation</p></li>
+            <li><p>Organic Farming</p></li>
+            <li><p>Reduce rate of evaporation in farmers</p></li>
+            <li><p>Adulteration</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img src="/assets/drone.png" alt="Robot" decoding="async" />
+          <h3>Robotics and Drone</h3>
+          <div>
+            <li><p>AI based robots for elderly care</p></li>
+            <li><p>Search and resuce operations in natural calamities</p></li>
+            <li><p>Non invasive checking of passengers and luggage</p></li>
+            <li><p>Primary medical investigation using robotics</p></li>
+            <li><p>Automation in industry hazardous area</p></li>
+            <li><p>Robot arrested surgery</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img src="/assets/health.jpg" alt="Health" decoding="async" />
+          <h3>Health Care</h3>
+          <div>
+            <li><p>Virtual Reality(VR) for Yoga and Meditation</p></li>
+            <li><p>Non invasive Non Glucometer</p></li>
+            <li><p>AI based diagnosis of various diseases</p></li>
+            <li><p>Smart in-house mobility for differently able people</p></li>
+          </div>
+        </div>
+        <div class="topic-card">
+          <img
+            src="/assets/online-education.jpg"
+            alt="Online Education"
+            decoding="async"
+          />
+          <h3>Online Education System</h3>
+          <div>
+            <li>
+              <p>Technologies for Online Submission/assessment/examinations</p>
+            </li>
+            <li><p>Proctored exam tools to avoid malpractices</p></li>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!--Reward Container-->
-    <h2 class="title">Rewards</h2>
-    <div class="reward-container">
-      <div class="reward-chip">
-        <img src="/assets/trophy.svg" alt="First Prize" decoding="async" />
-        <div>
-          <h3>First Prize</h3>
-          <p>&#x20B9;7000</p>
-        </div>
-      </div>
-      <div class="reward-chip">
-        <img src="/assets/trophy.svg" alt="Second Prize" decoding="async" />
-        <div>
-          <h3>Second Prize</h3>
-          <p>&#x20B9;5000</p>
-        </div>
-      </div>
-      <div class="reward-chip">
-        <img src="/assets/trophy.svg" alt="Third Prize" decoding="async" />
-        <div>
-          <h3>Third Prize</h3>
-          <p>&#x20B9;3000</p>
-        </div>
-      </div>
-    </div>
+		<!--Reward Container-->
+		<h2 class="title">Rewards</h2>
+		<div class="reward-container">
+			<div class="reward-chip">
+				<img src="/assets/trophy.svg" alt="First Prize" decoding="async" />
+				<div>
+					<h3>First Prize</h3>
+					<p>&#x20B9;7000</p>
+				</div>
+			</div>
+			<div class="reward-chip">
+				<img src="/assets/trophy.svg" alt="Second Prize" decoding="async" />
+				<div>
+					<h3>Second Prize</h3>
+					<p>&#x20B9;5000</p>
+				</div>
+			</div>
+			<div class="reward-chip">
+				<img src="/assets/trophy.svg" alt="Third Prize" decoding="async" />
+				<div>
+					<h3>Third Prize</h3>
+					<p>&#x20B9;3000</p>
+				</div>
+			</div>
+		</div>
 
-    <!--Register Container-->
-    <h2 id="register" class="title">Register</h2>
-    <div class="register-container">
-      <div class="register-card">
-        <img src="/assets/register.png" alt="Register" decoding="async" />
-        <div class="register-card-rules">
-          <p>Maximum team members : 6</p>
-          <p>One girl student is preferred</p>
-          <p>Interdisciplinary team:At least two programs</p>
-          <p>Presentation time : 10 mins</p>
-          <p>Presentation must be strictly according to the template</p>
-          <p>
-            For queries kindly contact:
-            <span style="font-weight: 600">+91 7709180452</span>
-          </p>
-        </div>
-        <div class="gpay">
-          <p>Gpay: +91 9850436359</p>
-        </div>
-        <div id="register-button" class="register-card-register-button">
-          <a id="register-a" href="https://forms.gle/GKHUyw5kbhZ8sNQw6"
-            >Register</a
-          >
-        </div>
+		<!--Register Container-->
+		<h2 id="register" class="title">Register</h2>
+		<div class="register-container">
+			<div class="register-card">
+				<img src="/assets/register.png" alt="Register" decoding="async" />
+				<div class="register-card-rules">
+					<p>Maximum team members : 6</p>
+					<p>One girl student is preferred</p>
+					<p>Interdisciplinary team:At least two programs</p>
+					<p>Presentation time : 10 mins</p>
+					<p>Presentation must be strictly according to the template</p>
+					<p>
+						For queries kindly contact:
+						<span style="font-weight: 600">+91 7709180452</span>
+					</p>
+				</div>
+				<div class="gpay">
+					<p>Gpay: +91 9850436359</p>
+				</div>
+				<div id="register-button" class="register-card-register-button">
+					<a id="register-a" href="https://forms.gle/GKHUyw5kbhZ8sNQw6"
+						>Register</a
+					>
+				</div>
 
         <div class="register-card-payment">
           <a href="/assets/ideago.pptx" download
@@ -188,6 +261,11 @@
         </div>
       </div>
     </div>
+
+    <!--Meet our team-->
+    <h2 class="title">Meet the <span id="team-title-node">Dream Team</span></h2>
+    <div class="team-container" id="team-container"></div>
     <script src="/js/ideago.js"></script>
+    <script async src="/js/animation.js"></script>
   </body>
 </html>

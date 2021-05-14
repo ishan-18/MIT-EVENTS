@@ -31,14 +31,14 @@ let team=[
         mail:"ishangawali02@gmail.com",
         img:"https://image.freepik.com/free-vector/developer-laptop-computer-with-open-robotic-soft-open-automation-architecture-open-source-robotics-soft-free-development-concept-bright-vibrant-violet-isolated-illustration_335657-474.jpg ",
         name:"Ishan Gawali",
-        desc:"Hi I'm Ishan Gawali and I'm a web developer. I've been practising web development since 1.5 years now and I've gained alot of skills in it. I love to explore new languages/frameworks/technologies. I can easily work with a group of people. If anyone wants to collab with me pls contact me at ",
+        desc:"Hi I'm Ishan Gawali and I'm a web developer. I've been practising web development since 1.5 years now and I've gained alot of skills in it. I love to explore new languages/frameworks/technologies. I can easily work with a group of people. If anyone wants to collab with me pls contact me  ",
         post:"Web Developer",
         sociallinks:`
     <a href="https://github.com/ishan-18"><i class='bx bxl-github'></i></a>
         `
     },
     {
-        mail:"khollam.vinit@mail.com",
+        mail:"khollam.vinit@gmail.com",
         img:"https://cdn.dribbble.com/users/418188/screenshots/3863957/creative_ux_design_illustration_tubik.png?compress=1&resize=800x600",
         name:"Vinit",
         desc:`  I like to design UI UX of apps and website. I am a full-stack web developer. Would like to explore and learn new things as they come across my path `,
@@ -83,11 +83,11 @@ function showCard(cindex){
 
 let html=`
 
-<div class="current col s12 l10 m10 row">
+<div class="current col s12 l10 m12 row">
 <div class="col s12 l4 m4">
     <div class="img" style="background-image: url('${person.img}')!important;"></div>
 </div>
-<div class="col s12 l8 m8 txt">
+<div class="col s12 l8 m12 txt">
 
 <h1><i class='bx bxs-quote-alt-left'></i></h1>
 <h2 class="name">${person.name}</h2>
@@ -101,7 +101,7 @@ ${person.sociallinks}
 
 </div>
 </div>
-    <div class="next col s12 l2 m2 preview-img" style="background-image: url('${nextimg}')!important;" >
+    <div class="next col s12 l2 m12 preview-img" style="background-image: url('${nextimg}')!important;" >
 <div class="overlay">
     <h2><i class='bx bxs-right-arrow-circle' onclick="setCard()"></i></h2>
 </div>

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,400;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+$Josephin:'Josefin Sans', sans-serif;
+$primary : #09aace;
+$bg : #f9f9f9;
+$body-font:'Poppins', sans-serif;
+.hero{
+   
+    width: 100%;
+    margin: 0 !important;
+    .mcol{
+     
+        min-height: 100vh;
+        display: flex;
+        padding: 0 !important;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+}
+
+#p-container{
+  width: 85%;
+  box-shadow:
+  0 5.3px 5.2px rgba(0, 0, 0, 0.024),
+  0 14.7px 14.4px rgba(0, 0, 0, 0.035),
+  0 35.3px 34.7px rgba(0, 0, 0, 0.046),
+
+;
+.social{
+width:90%;
+a{
+  color: black;
+  &:hover{
+    color: royalblue !important;
+    transition: .2s ease-in;
+  }
+}
+i{
+ 
+  font-size: 24px;
+  padding: 0 5px;
+  transform: translateX(-5px);
+}
+}
+  .img{
+    background-image: url('https://images.pexels.com/photos/2918513/pexels-photo-2918513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=740&w=1260');
+width: 100%;
+min-height: 40vh;
+background-size: cover;
+background-position: top center;
+  }
+  .current,.prev,.next{
+  margin: 0 !important;
+    padding: 0 !important;
+    min-height: 40vh;
+    .col{
+      padding: 0 !important;
+      min-height: 40vh ;
+      // border: 1px solid red;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    }
+  h1{
+    margin: 10px auto;
+    color: #2581eb;
+   width: 90% !important;
+   
+
+    font-size: 30px;
+  }
+  p{
+    color: rgb(40, 40, 40);
+    opacity: .6;
+    width: 90%;
+    
+    margin: 0 !important;
+    padding: 10px 0;
+font-size: 16px;
+font-family: $body-font;
+  }
+  .name{
+    font-size: 20px;
+    margin: 0;
+    width: 90%;
+    font-family: $body-font;
+    font-weight: 600;
+  }
+  .post{
+    text-transform: uppercase;
+    margin: 0 !important;
+    font-weight: 600 !important;
+    color: rgb(0, 119, 255);
+    padding:  0!important;
+    font-size: 15px !important;
+  }
+  .mail{
+    margin-bottom: 12px;
+    padding:10px 0!important;
+    font-size: 14px !important;
+  }
+  }
+
+
+}
+
+
+.before::before{
+width: 40px;
+height: 40px;
+background-image: url('./assets/bx-expand-alt.svg');
+content:'';
+position: absolute;
+z-index: 2;
+background-size: cover;
+transform:translateY( -100%);
+}
+.row{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.typing-demo {
+  text-align: center;
+
+    width: 10ch;
+    animation: typing 2s steps(16), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: $Josephin;
+    font-size: 72px;
+    color: #1b1b1b;
+  }
+  
+  .preview-img{
+    background-image: url('https://images.pexels.com/photos/2795294/pexels-photo-2795294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=740&w=1260');
+    background-size: cover;
+ background-position: center;
+  }
+  .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: $primary, $alpha: 0.4);
+    width:100%;
+    i{
+      &:hover{
+        transition: 1s ease;
+        color: black;
+      }
+      color: whitesmoke;
+    }
+    min-height: 40vh;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    40% {
+      border-color: transparent
+    }
+  }
+
+  @media screen and (max-width:700px) {
+
+    .typing-demo{
+      font-size: 52px !important;
+    }
+    
+    .hero .mcol{
+      min-height: auto !important;
+      padding: 5vh 0 !important;
+    }
+    .next,.overlay{
+      min-height: 20vh !important;
+      background-position: top !important;
+      max-height: 20vh !important;
+    }
+    .next{
+      margin: 20px auto  !important;
+    }
+    
+    .txt{
+      padding: 20px 0 !important;
+      margin: 20px 0 !important;
+    }
+
+  }
+
+  
+  
+ 
+  
+  
+.end
+{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 10px;
+}
+  
+ 

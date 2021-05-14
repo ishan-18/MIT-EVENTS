@@ -44,9 +44,7 @@ let team=[
         desc:`  I like to design UI UX of apps and website. I am a full-stack web developer. Would like to explore and learn new things as they come across my path `,
         post:"Web Designer",
         sociallinks:`
-    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-    <a href=""><i class='bx bxl-github'></i></a>
-    <a href=""><i class='bx bxl-instagram' ></i></a>
+    <a href="https://github.com/vk17-starlord" target="_blank" href=""><i class='bx bxl-github'></i></a>
         `
     },
 ]

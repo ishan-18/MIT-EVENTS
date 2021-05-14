@@ -18,17 +18,17 @@ nav{
     min-height: 70px;
     background-color: transparent !important;
     box-shadow: none !important;
-    color: var(--heading-color) !important;
+    color: #141414 !important;
     margin: 0 auto;
 }
 
 .brand-logo{
-    color: var(--heading-color) !important;
+    color: #141414 !important;
     font-weight: 800;
 }
 
 a{
-    color: var(--heading-color) !important;
+    color: #141414 !important;
 }
 
 .image-container{
@@ -65,7 +65,7 @@ a{
 }
 
 label{
-    color: var(--heading-color) !important;
+    color: #141414 !important;
     font-size: 1rem;
 }
 

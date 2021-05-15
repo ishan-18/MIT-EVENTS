@@ -5,7 +5,7 @@ let team=[
     {
         mail:"vedantgandhipersonal@gmail.com",
         img:"https://image.freepik.com/free-vector/single-page-application-abstract-concept-illustration-spa-web-page-web-development-trend-app-inside-browser-dynamically-rewriting-page-responsive-website-creation_335657-899.jpg",
-        name:"Vedant",
+        name:"Vedant Gandhi",
         desc:"I am a self learned programmer and my roots cover all aspects such as web development,mobile development,low level system development as well as Deep Learning Development.My goal is to bring sustainable technology for everyone.",
         post:"Web Developer",
         sociallinks:`
@@ -16,15 +16,13 @@ let team=[
     },
 
     {
-        mail:"johndoe@mail.com",
-        img:"https://images.pexels.com/photos/3778560/pexels-photo-3778560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        name:"Utkarsh",
-        desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, reiciendis. Dicta ad necessitatibus vitae ipsa vero praesentium nemo. Recusandae, ratione.",
-        post:"sales manager",
+        mail:"uttkarshpatel9@gmail.com",
+        img:"./assets/utkarshprofile.jpg",
+        name:"Utkarsh Patel",
+        desc:"A programmer with an interest in machine learning and data science, I also develop websites for fun and knowledge. A life long learner, inspired by Jiriya and Naruto.",
+        post:"Web Developer",
         sociallinks:`
-    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-    <a href=""><i class='bx bxl-github'></i></a>
-    <a href=""><i class='bx bxl-instagram' ></i></a>
+    <a href="https://github.com/Uttkarsh09" target="_blank"><i class='bx bxl-github'></i></a>
         `
     },
     {
@@ -34,13 +32,13 @@ let team=[
         desc:"Hi I'm Ishan Gawali and I'm a web developer. I've been practising web development since 1.5 years now and I've gained alot of skills in it. I love to explore new languages/frameworks/technologies. I can easily work with a group of people. If anyone wants to collab with me pls contact me  ",
         post:"Web Developer",
         sociallinks:`
-    <a href="https://github.com/ishan-18"><i class='bx bxl-github'></i></a>
+    <a href="https://github.com/ishan-18 " target="_blank"><i class='bx bxl-github'></i></a>
         `
     },
     {
         mail:"khollam.vinit@gmail.com",
         img:"https://cdn.dribbble.com/users/418188/screenshots/3863957/creative_ux_design_illustration_tubik.png?compress=1&resize=800x600",
-        name:"Vinit",
+        name:"Vinit Khollam",
         desc:`  I like to design UI UX of apps and website. I am a full-stack web developer. Would like to explore and learn new things as they come across my path `,
         post:"Web Designer",
         sociallinks:`

@@ -19,7 +19,7 @@ let team=[
         mail:"uttkarshpatel9@gmail.com",
         img:"./assets/utkarshprofile.jpg",
         name:"Utkarsh Patel",
-        desc:"A programmer with an interest in machine learning and data science, I also develop websites for fun and knowledge. A life long learner, inspired by Jiriya and Naruto.",
+        desc:"A programmer with an interest in machine learning and data science, I also develop websites for fun and knowledge. A life long learner, inspired by Jiraiya and Naruto.",
         post:"Web Developer",
         sociallinks:`
     <a href="https://github.com/Uttkarsh09" target="_blank"><i class='bx bxl-github'></i></a>

@@ -73,8 +73,8 @@ var global_obj = [
         person1: "Anuja: 9325502393",
         person2: "Vaibhav: 7588115116",
         teams: [
-            "Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
-            "Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
+            "Prof. Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
+            "Prof.Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
             "Mr.M.P.Shinde<br><h6>Staff Co-ordinator</h6>",
             "Anuja Ambewadikar<br><h6>President</h6>",
             "Vaibhav Gurap<br><h6>Vice President</h6>",
@@ -416,8 +416,8 @@ var global_obj = [
         person1: "Anuja: 9325502393",
         person2: "Vaibhav: 7588115116",
         teams: [
-            "Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
-            "Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
+            "Prof. Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
+            "Prof.Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
             "Mr.M.P.Shinde<br><h6>Staff Co-ordinator</h6>",
             "Anuja Ambewadikar<br><h6>President</h6>",
             "Vaibhav Gurap<br><h6>Vice President</h6>",
@@ -495,8 +495,8 @@ var technica_events = [
         person1: "Anuja: 9325502393",
         person2: "Vaibhav: 7588115116",
         teams: [
-            "Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
-            "Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
+            "Prof. Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
+            "Prof.Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
             "Mr.M.P.Shinde<br><h6>Staff Co-ordinator</h6>",
             "Anuja Ambewadikar<br><h6>President</h6>",
             "Vaibhav Gurap<br><h6>Vice President</h6>",
@@ -838,8 +838,8 @@ var technica_events = [
         person1: "Anuja: 9325502393",
         person2: "Vaibhav: 7588115116",
         teams: [
-            "Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
-            "Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
+            "Prof. Mrs J P Khurpade<br><h6>HOD Computer Dept</h6>",
+            "Prof.Mr M V Chavan<br><h6>Staff Co-ordinator</h6></h6>",
             "Mr.M.P.Shinde<br><h6>Staff Co-ordinator</h6>",
             "Anuja Ambewadikar<br><h6>President</h6>",
             "Vaibhav Gurap<br><h6>Vice President</h6>",
